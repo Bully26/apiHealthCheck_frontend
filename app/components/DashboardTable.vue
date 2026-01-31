@@ -20,7 +20,6 @@
              <th class="px-4 py-3">Limits (H/F)</th>
              <th class="px-4 py-3">Streak</th>
              <th class="px-4 py-3">Latency</th>
-             <th class="px-4 py-3 rounded-tr-lg">Last Scan</th>
            </tr>
         </thead>
         <tbody class="divide-y divide-slate-700/50">
