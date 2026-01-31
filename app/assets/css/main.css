@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --neon-cyan: #06b6d4;
+    --neon-pink: #ec4899;
+    --neon-green: #22c55e;
+    --bg-dark: #0f172a;
+}
+
+body {
+    @apply bg-slate-900 text-slate-200;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-slate-900;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-600;
+}
+
+/* Neon Utilities */
+.neon-border-cyan {
+    box-shadow: 0 0 5px #06b6d4, 0 0 10px #06b6d4;
+    border-color: #06b6d4;
+}
+
+.neon-text-cyan {
+    text-shadow: 0 0 5px #06b6d4;
+    color: #06b6d4;
+}
+
+.neon-border-pink {
+    box-shadow: 0 0 5px #ec4899, 0 0 10px #ec4899;
+    border-color: #ec4899;
+}
+
+.neon-text-pink {
+    text-shadow: 0 0 5px #ec4899;
+    color: #ec4899;
+}
+
+.neon-border-green {
+    box-shadow: 0 0 5px #22c55e, 0 0 10px #22c55e;
+    border-color: #22c55e;
+}
+
+.neon-text-green {
+    text-shadow: 0 0 5px #22c55e;
+    color: #22c55e;
+}
