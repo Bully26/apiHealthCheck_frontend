@@ -69,7 +69,7 @@
               </td>
               <td class="px-4 py-3 font-mono text-slate-300">{{ item.streak }}</td>
               <td class="px-4 py-3 font-mono text-pink-300 text-xs">--</td>
-              <td class="px-4 py-3 text-slate-500 text-xs font-mono">{{ formatTime(item.last_checked_at) }}</td>
+              <td class="px-4 py-3 text-slate-500 text-xs font-mono">{{ item.last_latency_ms }}</td>
            </tr>
         </tbody>
       </table>
