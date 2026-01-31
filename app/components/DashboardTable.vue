@@ -68,8 +68,7 @@
                 H:{{ item.healthy_threshold }} / F:{{ item.failure_threshold }}
               </td>
               <td class="px-4 py-3 font-mono text-slate-300">{{ item.streak }}</td>
-              <td class="px-4 py-3 font-mono text-pink-300 text-xs">--</td>
-              <td class="px-4 py-3 text-slate-500 text-xs font-mono">{{ item.last_latency_ms }}</td>
+              <td class="px-4 py-3 font-mono text-pink-300 text-xs">{{ item.last_latency_ms }}</td>
            </tr>
         </tbody>
       </table>
